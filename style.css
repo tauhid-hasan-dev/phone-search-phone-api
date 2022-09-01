@@ -1,0 +1,21 @@
+body::before {
+    display: block;
+    content: '';
+    height: 90px;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 30px;
+    overflow-x: hidden;
+
+}
+
+.sidenav::before {
+    display: block;
+    content: '';
+    height: 80px;
+}
